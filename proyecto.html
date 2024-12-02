@@ -1,4 +1,4 @@
-<html>
+1 <html>
 <head>
    <style>
        #demo1 {
@@ -29,6 +29,8 @@
       document.write (nombre);
       var numero1 = prompt ("dime tu numero favorito");
       var numero2 = promt ("dime tu otro numero favorito");
+      numero1 = Number(numero1);
+      numero2= Number(numero2);
       var resultado = numero1+numero2;
       document.write ("<h3>El resultado de la suma es: </h3> " +resultado);
       document.write ("<h3 id='demo1'> El resultado de la multiplicación es: </h3>" + numero1*numero2);
