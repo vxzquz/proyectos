@@ -1,0 +1,29 @@
+<html>
+<head>
+   <style>
+      #demo {
+             background: rgb(139, 0, 0);
+             width: 70%;
+             height: 50px;
+     }
+     </style>
+</head>
+   <body>
+      <h3 id="demo">Pero los cobardes, los incrédulos, los abominables, los homicidas, los fornicarios, los hechiceros, los idólatras y todos los mentirosos,</h3>
+      <h3 id="demo">tendrán su porción en el lago que arde con fuego y azufre , que es el segunda muerte.</h3>
+
+     <script>
+         var nombre = prompt ("Sálvate de la segunda muerte, di soy hombre de bien, no ire al infierno");
+      document.write (nombre);
+      var numero1 = prompt ("dime tu numero favorito");
+      var numero2 = prompt ("dime tu otro numero favorito");
+      numero1 = Number(numero1);
+      numero2 = Number(numero2);
+      var resultado = numero1+numero2;
+      document.write ("<h3>El resultado de la suma es: </h3> " +resultado);
+      document.write ("</h3>");
+      document.write ("<h3 id='demo1'> El resultado de la multiplicación es:" + numero1*numero2);
+      document.write ("</h3>");
+     </script>
+   </body>
+</html>
