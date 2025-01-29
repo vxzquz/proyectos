@@ -8,7 +8,22 @@
     <script>
 
     var x = prompt ("Escribe un numero del 1 al 100")
-    var i = x-1
+    var c = 0
+    var i = 1
+    var y = 0
+            if (x<0 || x>100) {
+                    document.write ("Por tanto, si tu ojo derecho te hace pecar, sácatelo y tíralo. Más te vale perder una sola parte de tu cuerpo, y no que todo él sea arrojado al infierno.");
+            }
+
+            else
+            {
+                    for (i=0; i <= x; i++)
+                            {
+                                    y = c + i;
+                                    document.write ("<br>");
+                                    document.write ("La sucesion de fibonacci " +y);
+                                    c = i;
+                                    i = y;
     </script>
     </body>
 </html>
