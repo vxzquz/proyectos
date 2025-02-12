@@ -6,6 +6,6 @@ function jose(min, max)
     numero = prompt ("escribe un número entre " + min +" y " + max + ":");
     numero = Number(numero);
     }  
-  while (numero<min || numero>max) 
+  while (numero<min || numero>max);
 return numero;
 }
