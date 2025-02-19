@@ -10,9 +10,7 @@ function primoono (numero)
           Primosi = false;
           return Primosi;
         }
-
-
-        
+     
        }
     Primosi = true;
     return Primosi;
