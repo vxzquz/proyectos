@@ -8,6 +8,7 @@ function primoono (numero)
         if ( numero % i == 0 )
         {
           Primosi = false;
+          return Primosi;
         }
 
 
