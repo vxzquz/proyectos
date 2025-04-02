@@ -3,6 +3,7 @@
     <title> Pinchame </title>
   </head>
   <body>
+    <button> Botón Básico</button>
     <sript>
       alert ('HOLA MUNDO');
     </script>
