@@ -69,13 +69,14 @@
                 num3 = Number(numero3.value);
                 
                 // Mostramos el texto con la operación y el resultado
-               resultado.textContent = (num1 + " sumado a  " + num2 +" y a "+ num3 + " es igual a " + (num1+num2+num2));
+               resultado.textContent = (num1 + " sumado a  " + num2 +" y a "+ num3 + " es igual a " + (num1+num2+num3));
             });
 
             /// Configuramos qué pasa cuando se hace clic en el botón Multiplicar
             botonMultiplicar.addEventListener('click', function() {
                 num1 = Number(numero1.value);
                 num2 = Number(numero2.value);
+                num3 = Number(numero3.value);
 
                 // Mostramos el texto con la operación y el resultado
                 resultado.textContent = ( num1 + " multiplicado por "+ num2 + " y por "+ num3 + " es igual a " + (num1*num2*num3));
@@ -83,6 +84,7 @@
             botonRestar.addEventListener('click', function() {
                 num1 = Number(numero1.value);
                 num2 = Number(numero2.value);
+                num3 = Number(numero3.value);
 
                 // Mostramos el texto con la operación y el resultado
                 resultado.textContent = ( num1 + " restado por "+ num2 + " y por "+ num3 + " es igual a " + (num1-num2-num3));
