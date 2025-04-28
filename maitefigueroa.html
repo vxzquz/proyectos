@@ -78,19 +78,19 @@
     <script>
         // Declaramos las variables que usaremos globalmente
        
-      var Primosi;
+      var esPrimos;
       
 
         // Esperamos a que se haga clic en el botón
-        document.getElementById('botonSaludar').addEventListener('click', function() {
+        document.getElementById('botonPrimo').addEventListener('click', function() {
 
             // Obtenemos el valor del input (lo que el usuario ha escrito)
-            nombre = document.getElementById('entradaNombre').value;
+            numero = document.getElementById('entradaNumero').value;
             // Referencia al elemento donde mostraremos el mensaje
             mensajeDiv = document.getElementById('mensaje');
-            Primosi = primoono (numero);
+            esPrimos = primoono (numero);
             // Si el usuario escribió algo, saludamos
-            if (Primosi=true) {
+            if (esPrimos) {
                 mensajeDiv.textContent = ("¡Hola, " + numero + " ES PRIMO ");
             } 
             // Si el campo está vacío, le pedimos que escriba su nombre
