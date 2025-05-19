@@ -77,11 +77,8 @@
         // Declaramos las variables que usaremos globalmente
        
       var factorial = 1; 
-            for (i=1; i<=numero; i++)
-                 {
-                     factorial = factorial * i;
-                     document.write ("<br>El factorial de " + i + " es: " + factorial);
-                 }
+      var numero;
+         
       
 
         // Esperamos a que se haga clic en el botón
@@ -91,7 +88,11 @@
             numero = document.getElementById('entradaNumero').value;
             // Referencia al elemento donde mostraremos el mensaje
             mensajeDiv = document.getElementById('mensaje');
-            esPrimos = primoono (numero);
+               for (i=1; i<=numero; i++)
+                 {
+                     factorial = factorial * i;
+                     document.write ("<br>El factorial de " + i + " es: " + factorial);
+                 }
             // Si el usuario escribió algo, saludamos
                 mensajeDiv.textContent = ("El factorial de " + i + " es: " + factorial);
                         
