@@ -19,7 +19,7 @@
           estado-civil: "solo"
           saludar () {
             const output = document.getElementById('resultado-persona');
-        output.innerHTML="HOLA A TODOS";
+        output.innerHTML="HOLA ${this.nombre} TENGO ${this.edad}";
           }
         };
       console.log(persona.nombre);
