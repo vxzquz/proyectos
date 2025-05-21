@@ -16,10 +16,9 @@
           Ciudad: "Garrucha",
           sexo: "Mucho",
           tamaño: 17,
-          estado-civil: "solo"
           saludar () {
             const output = document.getElementById('resultado-persona');
-        output.innerHTML="HOLA ${this.nombre} TENGO ${this.edad}";
+        output.innerHTML=`HOLA ${this.nombre} TENGO ${this.edad}´;
           }
         };
       console.log(persona.nombre);
